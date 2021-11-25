@@ -22,9 +22,9 @@
 	
 		<label>Tombo</label>
 		<input type="text" name="txttombo" class="campo" placeholder="Digite o tombo do livro" required size="20">
-
+		
 		<br>
-
+		
 		<label>Autor</label>
 		<input type="text" name="txtautor" class="campo" placeholder="Digite o autor do livro" required size="75">
 
