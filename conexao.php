@@ -1,9 +1,9 @@
 <?php 
 
 	$servidor = "localhost";
-	$usuario  = "root";
-	$senha    = "";
-	$banco    = "biblioteca";
+	$usuario  = "etecvotu_user_biblioteca";
+	$senha    = "Etec@123@";
+	$banco    = "etecvotu_biblioteca";
 
 	$conectar = mysqli_connect($servidor, $usuario, $senha, $banco);
 
