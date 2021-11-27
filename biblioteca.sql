@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 25-Nov-2021 às 23:13
+-- Tempo de geração: 27-Nov-2021 às 20:12
 -- Versão do servidor: 10.4.21-MariaDB
 -- versão do PHP: 7.3.31
 
@@ -280,7 +280,9 @@ INSERT INTO `livros` (`tombo`, `autor`, `titulo`, `subtitulo`, `editora`, `local
 (155, 'VASCONCELOS, José Mauro de, 1920-', 'Arara vermelha', '', 'Melhoramewntos', 'São Paulo', '1965', '', '', 'F - V331a - romance bras.', '4', '', '    \r\n    ', 229),
 (156, 'STEINBBECK, John', 'O breve reinado de Pepino IV', '', 'Livros do Brasil', 'Lisboa', 'sem data', '', '1', 'F - S819b - romance português', '', 'Coleção dois mundos', '', 230),
 (157, 'SILVA, Renato Ignácio', 'Natureza morta', 'história viva', 'RENIG', 'Itaquaquecetuba', 'sem data', '', '1', 'F - S586n - romance bras.', '', '', '', 231),
-(158, 'SAMPAIO, Fernando G.', 'A verdade sobre os deuses astronautas', '', 'Movimento', 'Porto Alegre', '1973', '', '1', 'F - S 192v - ficção realista - arqueologia', '2', 'Coleção Documentos; v.2', '', 232);
+(158, 'SAMPAIO, Fernando G.', 'A verdade sobre os deuses astronautas', '', 'Movimento', 'Porto Alegre', '1973', '', '1', 'F - S 192v - ficção realista - arqueologia', '2', 'Coleção Documentos; v.2', '', 232),
+(74, 'STENDHAL', ' O vermelho e o negro', ' crônica do século XIX', 'Globo', ' Rio de Janeiro', '1987', '', '1', ' F - S825v - romance americano', '', '', '', 233),
+(75, ' FLAG, Suzana (pseudônimo de Nélson Rodrigues)', ' Meu destino é pecar', '', 'Tecnoprint', ' Rio de Janeiro', '1954', '', '1', ' F - F574m - romance brasileiro', ' Coleção prestígio', ' Série leão', '', 234);
 
 --
 -- Índices para tabelas despejadas
@@ -300,7 +302,7 @@ ALTER TABLE `livros`
 -- AUTO_INCREMENT de tabela `livros`
 --
 ALTER TABLE `livros`
-  MODIFY `codlivro` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=233;
+  MODIFY `codlivro` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=235;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
